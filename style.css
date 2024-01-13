@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar img {
+    height: 87px;
+    width: 78px;
+    padding: 12px;
+    margin: 2px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+li {
+    list-style: none;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 255, 255);
+}
+
+
+/* Main section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .box1 {
+    margin: 12px;
+    padding: 12px;
+    /* border: 2px solid red; */
+    width: 30%;
+}
+
+#home .box1 p {
+    font-size: 20px;
+    color: rgb(162 111 111);
+}
+
+#home .icons {
+    display: flex;
+}
+
+#home .icons img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 9px 2px rgb(0, 255, 255);
+    
+}
+
+#home .icons img:hover {
+    background-color: rgb(0, 255, 255);
+}
+
+#home .box2 {
+    /* border: 2px solid red; */
+    margin: 12px;
+    padding: 12px;
+    margin-left: 123px;
+}
+
+#home .box2 img {
+    height: 390px;
+    width: 420px;
+    animation: all 2s ease-in;
+}
+@keyframes all {
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+    
+
+}
+#home .box2 hr {
+    height: 5px;
+    color: rgb(0, 255, 255);
+}
+
+/* About section */
+/* #about {
+    
+} */
+
+#about h1 {
+    margin: auto;
+    width: 14%;
+    margin-top: 20px;
+    text-decoration: overline;
+}
+
+.cointainer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cointainer .images {
+    margin: 12px;
+    padding: 12px;
+}
+
+.cointainer .aboutme {
+    margin: 12px;
+    margin-left: 40px;
+    padding: 12px;
+    width: 39%;
+}
+.cointainer .aboutme p{
+    font-size: 12px;
+}
+
+.cointainer .aboutme .call-gmail{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.cointainer .aboutme .call-gmail h5{
+    margin-left: 10px
+}
+.cointainer .aboutme .call-gmail h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(107, 107, 198);
+}
+.cointainer .aboutme .call-gmail img{
+    width: 22px;
+    height: 22px;
+}
+
+/* services section */
+/* #service{
+
+} */
+#service h1{
+    width: 14%;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: overline;
+}
+#service .paragraph{
+    margin: 30px;
+}
+#service .paragraph h2{
+    margin: 15px;
+}
+.section-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0px;
+}
+.section{
+    /* border: 2px solid red; */
+    padding: 15px 15px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section:hover{
+    border: 1px solid rgb(78, 99, 99);
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: underline;
+}
+.section img{
+    width: 10vh;
+    height: 10vh;
+}
+.section h3{
+    margin: 12px;
+    font-size: 24px;
+}
+.section p{
+    margin: 20px;
+    font-size: 15px;
+}
+
+/* contact section */
+/* #contact{
+    height: 1000px;
+} */
+#contact h1{
+    width: 14%;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: overline;
+}
+text{
+    color: white;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.clr{
+    color: white;
+}
+.contact-us input, textarea{
+    width: 50%;
+    margin: 10px 10px;
+    padding: 10px 14px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(111, 177, 177);
+    border-radius: 12px;
+}
+.contact-us .btn{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px 5px rgb(0, 255, 255);
+    cursor: pointer;
+}
+.contact-us .btn:hover{
+    background-color: rgb(0, 255, 255);
+    color: black;
+}
+
+/* footer */
+footer{
+    width: 44%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

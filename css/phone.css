@@ -1,0 +1,5 @@
+@media (max-width=1240) and (min-width=800){
+    body{
+        background-color: violet;
+    }    
+}
